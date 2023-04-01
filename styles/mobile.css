@@ -1,0 +1,99 @@
+@media (max-width: 420px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav_list {
+    display: none;
+  }
+  .nav {
+    top: 80px;
+  }
+  .nav_content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .delivery_content {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 97px;
+    padding-bottom: 113px;
+  }
+  .katalog_list {
+    display: none;
+  }
+  .katalog_filter {
+    display: none;
+  }
+  .katalog_cards {
+    justify-content: center;
+    align-items: center;
+  }
+  .left-side,
+  .right-side {
+    display: none;
+  }
+  .shag_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .shag_bir {
+    flex-direction: column;
+  }
+  .shag_eki {
+    flex-direction: column;
+  }
+  .shag_card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .shag_card_sub {
+    width: 100%;
+  }
+  .foto_content {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1200px;
+  }
+  .subfooter_list {
+    flex-direction: column;
+  }
+  .footer_title {
+    margin-top: 20px;
+  }
+  textarea {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .footer_form_names {
+    flex-direction: column;
+  }
+  .footer_form_names input {
+    width: 100%;
+  }
+  .one {
+    background: url("../images/background/Фон_изображение.jpg") center
+      center/cover no-repeat;
+  }
+  .two {
+    background: url("../images/background/banner\ one.jpg") center center/cover
+      no-repeat;
+  }
+  .three {
+    background: url("../images/background/banner\ two.jpg") center center/cover
+      no-repeat;
+  }
+  .four {
+    background: url("../images/background/banner\ three.jpg") center
+      center/cover no-repeat;
+  }
+
+  .five {
+    background: url("../images/background/banner\ four.jpg") center center/cover
+      no-repeat;
+  }
+}
